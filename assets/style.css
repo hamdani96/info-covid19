@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Nunito';
+	src: url('fonts/Nunito-Regular.ttf');
+}
+* {
+	display: block;
+}
+html{
+	font-family: 'Nunito', sans-serif;
+	width: 100%;
+	height: 100vh;
+	padding: 0px;
+	top: 0;
+	background-color: #9fb7cf;
+}
+
+body{
+	background-color: #e0f0fd;
+	border-radius: 15px;
+	position: relative;
+	margin: 30px;
+	height: 100vh;
+}
+
+nav {
+	position: relative;
+	top: 42px;
+}
+
+.title h1{
+	font-family: 'Bodoni MT';
+	color: #3c3c3e;
+	/*text-align: center;*/
+	position: relative;
+	font-size: 4rem;
+	top: 100px;
+}
+
+.square {
+	margin-top: 150px;
+}
+
+.card {
+	border: 10px;
+	border-color: black;
+}
